@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lean_git
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+    restart: unless-stopped
