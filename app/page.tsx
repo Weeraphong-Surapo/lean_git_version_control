@@ -8,7 +8,7 @@ const features = [
     description: "แยกงานด้วย branch แล้วรวมกลับด้วย merge หรือ rebase",
   },
   {
-    title: "ทำงานเป็นทีม",
+    title: "ทำงานเป็นทีม ",
     description: "ใช้ pull request และ code review ร่วมกับเพื่อนร่วมทีม",
   },
 ];
